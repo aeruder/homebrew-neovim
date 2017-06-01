@@ -3,7 +3,7 @@ class Neovim < Formula
   homepage "https://neovim.io"
   url "https://github.com/neovim/neovim/archive/v0.2.0.tar.gz"
   sha256 "72e263f9d23fe60403d53a52d4c95026b0be428c1b9c02b80ab55166ea3f62b5"
-  head "https://github.com/neovim/neovim.git", :shallow => false
+  head "https://github.com/aeruder/neovim.git", :shallow => false
 
   option "with-dev", "Compile a Dev build. Enables debug information, logging,
         and optimizations that don't interfere with debugging."
